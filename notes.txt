@@ -1,0 +1,63 @@
+raw_data observations:
+
+0:Tall 14000 narrow, peakjust over 100, very small bump to right, at around 1/7s up
+1:Peak around 1000, narrow but with small bump to left about 1/2 up and small bump to right 1/10 up
+2:Tall narrow, smooth, noise to left, tiny curved bump to right
+3:Galvinised steel
+4:Tall, very narrow, peak to right 1/7 up, separate small bump to left, tiny kink to right at about 160
+5:SHarp small peak to right 1/5th up, larger peak below 100, separate kink to right at about 120
+6:MO? Wide, noisy and curved low down, peak below 100, second distinct peak to left at around 80, hump to right at around 120
+7: High second peak at 7/9ths
+8: Tall, narrow, small second peak to the right 2/3s up
+
+https://en.wikipedia.org/wiki/X-ray_fluorescence
+
+aims:
+analyse the emission and fluorescent spectra of several metals -  broad Bremsstrahlung and characteristic emissions
+determine the composition of various metals alloys
+
+functions:
+
+callibration function - match two values to two other values to return the m and c parameters of a y=mx+c equation.
+
+peak-finding function - specify min and max x values of range, take max yvalue.
+
+count rate function - integrate counts over the whole spectrum and divide 
+by count (or measuring) time
+
+full width at half maximum function - Peak widths will reflect the resolution of the equipment used and perhaps the presence 
+of multiple contributions to what appears to be a single peak. We currently have a working 
+assumption that these do not change but this has not yet been confirmed one way or the 
+other.
+
+
+
+Guassian peak modelling function - model relevant spectra as a series of Gaussian peaks.See “C.3 Non-linear curve fitting of data”
+
+peak areas - 
+
+chemical composition function/relative intensities - To determine alloy composition, it is also necessary to know the relative strength of the 
+contributions - a combination of the atomic response to the source spectrum and the system (instrumental) response.
+
+
+
+
+
+Peak intensities vary with Z (see 1.2.2-4 in the “X-ray physics background 
+information” section earlier in the lab book
+
+
+Energy/wavelength dependant
+
+
+
+what is known
+
+what is assumed
+
+what is unknown
+
+to do:
+Identify 9 raw_data sprectrums
+
+
